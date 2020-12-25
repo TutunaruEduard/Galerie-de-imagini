@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+  body {
+    background-color: rgb(0, 217, 255);
+  }
+
+    
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Galerie de imagini</h2>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Alex.jpg">
+      <img src="Alex.jpg" alt="Alex" width="600" height="400">
+    </a>
+    <div class="desc">Alex</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Alina.jpg">
+      <img src="Alina.jpg" alt="Alina" width="600" height="400">
+    </a>
+    <div class="desc">Alina</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Dolly.jpg">
+      <img src="Dolly.jpg" alt="Nobletea" width="600" height="400">
+    </a>
+    <div class="desc">Dolly</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Edi.jpg">
+      <img src="Edi.jpg" alt="Tata" width="600" height="400">
+    </a>
+    <div class="desc">Edi</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="Edi1.jpg">
+        <img src="Edi1.jpeg" alt="Tata" width="600" height="400">
+      </a>
+      <div class="desc">Edi</div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="Mada.jpg">
+        <img src="Mada.jpg" alt="Mama" width="600" height="400">
+      </a>
+      <div class="desc">Mada</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="pupin.jpg">
+        <img src="pupin.jpg" alt="pupin" width="600" height="400">
+      </a>
+      <div class="desc">Pupin</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="pupin-1916.jpg">
+        <img src="pupin-1916.jpg" alt="Pupin" width="600" height="400">
+      </a>
+      <div class="desc">Pupin</div>
+    </div>
+  </div>
+  
+    <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="university.jpg">
+        <img src="university.jpg" alt="Universitatea din Columbia" width="600" height="400">
+      </a>
+      <div class="desc">Universitatea din Columbia</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="Alina gradata.jpeg">
+        <img src="Alina gradata.jpeg" alt="Fata gradata" width="600" height="400">
+      </a>
+      <div class="desc">Fata gradata</div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+  <div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Acest exemplu folosește interogări media pentru a aranja din nou imaginile pe diferite dimensiuni de ecran: pentru ecrane mai mari de 700 px lățime, va afișa patru imagini una lângă alta, pentru ecrane mai mici de 700 px, va afișa două imagini una lângă alta. Pentru ecrane mai mici de 500 px, imaginile se vor stiva vertical (100%).</p>
+  
+</div>
+
+</body>
+</html>
